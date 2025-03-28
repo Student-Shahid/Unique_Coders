@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #ff6600;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn {
+    background: #ff6600;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+#projects {
+    padding: 2rem;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project-text {
+    flex: 1;
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+#contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+.vertical-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 0.5rem;
+}
+
+.vertical-form input,
+.vertical-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.vertical-form button {
+    background: #ff6600;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+    margin-top: 2rem;
+}
